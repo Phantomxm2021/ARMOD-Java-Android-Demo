@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ARDemo</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="yes">Ok</string>
+    <string name="no">Ok</string>
+    <string name="project_id_input_hint">Input your project id</string>
+    <string name="ar_button_name">AR Launcher</string>
+    <string name="arscan">AR Scan</string>
+    <string name="config">{
+	\"dashboardConfig\": {
+		\"dashboardGateway\": \"https://weacw.com/api/v1/getarexperience\",
+		\"token\": \"eyJhbGciOiJIUzUxMiIsImlhdCI6MTYxODgyMDQ0NSwiZXhwIjoxMDI1ODgyMDQ0NX0.eyJwYWNrYWdlaWQiOiJjb20uY2VsbHN0dWRpby5hcmxpYnJhcnkiLCJ1c2VyX3VpZCI6LTF9.tUEyJ32Z0QHPrGoYEs51d_2q6LnXAQTyinwX4p7Zi192mGJDDZ4whwNX_E-f8rITuXA39tK5u6UVq7A_8D7c7w\",
+        \"timeout\":30,
+        \"maximumDownloadSize\":30
+	},
+	\"imageCloudRecognizerConfig\": {
+		\"gateway\": \"\",
+        \"maximumOfRetries\":5,
+         \"frequencyOfScan\":5
+	}
+}</string>
+</resources>

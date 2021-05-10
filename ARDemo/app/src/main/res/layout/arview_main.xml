@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@android:drawable/ic_menu_close_clear_cancel"
+        android:insetLeft="0dp"
+        android:onClick="CloseARView"
+        android:translationX="20dp"
+        android:translationY="20dp"></Button>
+</LinearLayout>
