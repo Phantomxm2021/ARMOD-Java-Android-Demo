@@ -15,9 +15,10 @@
     <string name="ar_button_name">AR Launcher</string>
     <string name="arscan">AR Scan</string>
     <string name="config">{
+        \"EngineType\":\"Native\",
 	\"dashboardConfig\": {
-		\"dashboardGateway\": \"https://weacw.com/api/v1/getarexperience\",
-		\"token\": \"eyJhbGciOiJIUzUxMiIsImlhdCI6MTYxODgyMDQ0NSwiZXhwIjoxMDI1ODgyMDQ0NX0.eyJwYWNrYWdlaWQiOiJjb20uY2VsbHN0dWRpby5hcmxpYnJhcnkiLCJ1c2VyX3VpZCI6LTF9.tUEyJ32Z0QHPrGoYEs51d_2q6LnXAQTyinwX4p7Zi192mGJDDZ4whwNX_E-f8rITuXA39tK5u6UVq7A_8D7c7w\",
+		\"dashboardGateway\": \"https://phantomsxr.com/api/v1/getarexperience\",
+		\"token\": \"YOUR_TOKEN",
         \"timeout\":30,
         \"maximumDownloadSize\":30
 	},
