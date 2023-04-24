@@ -1,6 +1,7 @@
 package com.phantomsxr.armodplugin;
 
 public interface ARMODEventListener {
+    void onMessageReceived(String data);
     void onDeviceNotSupport();
     void onAddLoadingOverlay();
     void onUpdateLoadingProgress(float progress);

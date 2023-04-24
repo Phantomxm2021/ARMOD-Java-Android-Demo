@@ -14,18 +14,5 @@
     <string name="project_id_input_hint">Input your project id</string>
     <string name="ar_button_name">AR Launcher</string>
     <string name="arscan">AR Scan</string>
-    <string name="config">{
-        \"EngineType\":\"Native\",
-	\"dashboardConfig\": {
-		\"dashboardGateway\": \"https://phantomsxr.com/api/v1/getarexperience\",
-		\"token\": \"YOUR_TOKEN",
-        \"timeout\":30,
-        \"maximumDownloadSize\":30
-	},
-	\"imageCloudRecognizerConfig\": {
-		\"gateway\": \"\",
-        \"maximumOfRetries\":5,
-         \"frequencyOfScan\":5
-	}
-}</string>
+    <string name="config">{\"engineType\":\"Native\",\"AppModel\":\"Online\",\"dashboardConfig\":{\"dashboardGateway\":\"https://phantomsxr.com/api/v2/client/getarresources\",\"exceptionCollectorUrl\":\"\",\"token\":\"YOUR_TOKEN\",\"timeout\":30,\"maximumDownloadSize\":30},\"imageCloudRecognizerConfig\":{\"gateway\":\"\",\"maximumOfRetries\":5,\"frequencyOfScan\":5},\"customConfig\":{\"config\":\"\"}}</string>
 </resources>

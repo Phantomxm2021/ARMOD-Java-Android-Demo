@@ -62,6 +62,11 @@ public class ARView extends BaseARMODActivity implements ARMODEventListener {
     }
 
     @Override
+    public void onMessageReceived(String data) {
+
+    }
+
+    @Override
     public void onDeviceNotSupport() {
         alertConfirmationView("Not Support", "Your device is not support AR");
     }
