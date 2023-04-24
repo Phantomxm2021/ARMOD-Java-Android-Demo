@@ -20,6 +20,7 @@ public abstract class BaseARMODActivity extends UnityPlayerActivity {
 
     private final String InitSDK = "InitSDK";
     private final String FetchByUid = "LaunchXRQuery";
+    private final String SendMessageToXRMODEngine = "SendMessageToXRMODEngine";
     private final String LaunchARScanner = "LaunchARScanner";
     private final String Dispose = "Dispose";
     private final String DoQuit = "doQuit";
@@ -97,6 +98,14 @@ public abstract class BaseARMODActivity extends UnityPlayerActivity {
         new Handler(Looper.getMainLooper())
                 .postDelayed(() -> Utils.getInstance().callSDKMethod(FetchByUid, _id), 1000);
 
+    }
+
+    /**
+     * Send a message to XRMOD Engine.
+     * @param data The message data to be sent to the XRMOD Engine
+     */
+    public void sendMessageToXRMODEngine(String data){
+        Utils.getInstance().callSDKMethod(SendMessageToXRMODEngine, data);
     }
 
 
