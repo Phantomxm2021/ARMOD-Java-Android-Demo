@@ -8,19 +8,24 @@ This project is used to demonstrate how AR MOD and Native app can be used togeth
 3. Write your AR-MOD Token to the `ARMOD-Java-Android-Demo/ARDemo/app/src/main/res/values/strings.xml `
     ```diff
         <string name="config">{
-            \"EngineType\":\"Native\",
-            \"dashboardConfig\": {
-                \"dashboardGateway\": \"https://phantomsxr.com/api/v1/getarexperience\",
-    +        \"token\": \"YOUR_TOKEN",
-                \"timeout\":30,
-                \"maximumDownloadSize\":30
-            },
-            \"imageCloudRecognizerConfig\": {
-                \"gateway\": \"\",
-                \"maximumOfRetries\":5,
-                \"frequencyOfScan\":5
-            }
-        }
+	\"engineType\": \"Native\",
+	\"AppModel\": \"Online\",
+	\"dashboardConfig\": {
+		\"dashboardGateway\": \"https://phantomsxr.com/api/v2/client/getarresources\",
+		\"exceptionCollectorUrl\": \"\",
+	+	\"token\": \"YOUR_TOKEN\",
+		\"timeout\": 30,
+		\"maximumDownloadSize\": 30
+	},
+	\"imageCloudRecognizerConfig\": {
+		\"gateway\": \"\",
+		\"maximumOfRetries\": 5,
+		\"frequencyOfScan\": 5
+	},
+	\"customConfig\": {
+		\"config\": \"\"
+	}
+}
         </string>
     ```
 3. Build
